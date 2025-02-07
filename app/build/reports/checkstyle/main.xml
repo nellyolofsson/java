@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.38">
+<file name="C:\Users\nossf\Documents\1Dv607\a2\app\src\main\java\controller\App.java">
+</file>
+<file name="C:\Users\nossf\Documents\1Dv607\a2\app\src\main\java\controller\Controller.java">
+</file>
+<file name="C:\Users\nossf\Documents\1Dv607\a2\app\src\main\java\controller\DataLoader.java">
+</file>
+<file name="C:\Users\nossf\Documents\1Dv607\a2\app\src\main\java\controller\TimeController.java">
+</file>
+<file name="C:\Users\nossf\Documents\1Dv607\a2\app\src\main\java\model\Category.java">
+</file>
+<file name="C:\Users\nossf\Documents\1Dv607\a2\app\src\main\java\model\Contract.java">
+</file>
+<file name="C:\Users\nossf\Documents\1Dv607\a2\app\src\main\java\model\Item.java">
+</file>
+<file name="C:\Users\nossf\Documents\1Dv607\a2\app\src\main\java\model\Member.java">
+</file>
+<file name="C:\Users\nossf\Documents\1Dv607\a2\app\src\main\java\model\MemberValidationService.java">
+</file>
+<file name="C:\Users\nossf\Documents\1Dv607\a2\app\src\main\java\model\StuffLendingSystem.java">
+</file>
+<file name="C:\Users\nossf\Documents\1Dv607\a2\app\src\main\java\view\ConsoleView.java">
+</file>
+<file name="C:\Users\nossf\Documents\1Dv607\a2\app\src\main\java\view\ControllerCallback.java">
+</file>
+<file name="C:\Users\nossf\Documents\1Dv607\a2\app\src\main\java\view\MenuActions.java">
+</file>
+<file name="C:\Users\nossf\Documents\1Dv607\a2\app\src\main\java\view\PrinterView.java">
+</file>
+<file name="C:\Users\nossf\Documents\1Dv607\a2\app\src\main\java\view\View.java">
+</file>
+</checkstyle>

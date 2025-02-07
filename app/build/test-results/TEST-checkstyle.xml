@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite package="org.checkstyle" time="0" tests="15" errors="0" name="checkstyle">
+<testcase time="0" name="controller/App.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="controller/Controller.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="controller/DataLoader.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="controller/TimeController.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/Category.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/Contract.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/Item.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/Member.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/MemberValidationService.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/StuffLendingSystem.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/ConsoleView.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/ControllerCallback.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/MenuActions.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/PrinterView.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/View.java" classname="CheckStyle Issues">
+</testcase></testsuite>

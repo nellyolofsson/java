@@ -1,0 +1,79 @@
+a0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/controller/App.java
+h0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/controller/Controller.java
+h0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/controller/DataLoader.java
+l0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/controller/TimeController.java
+a0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/model/Category.java
+a0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/model/Contract.java
+]0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/model/Item.java
+_0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/model/Member.java
+p0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/model/MemberValidationService.java
+k0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/model/StuffLendingSystem.java
+c0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/view/ConsoleView.java
+j0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/view/ControllerCallback.java
+c0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/view/MenuActions.java
+c0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/view/PrinterView.java
+\0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/view/View.java
+91 FindBugs Issues in model/MemberValidationService.java
+text:lines: 6-53 
+"Unread field: phoneNumberLength 
+Unread field 
+@This field is never read. Consider removing it from the class.
+
+*4 FindBugs Issues in model/Contract.java
+text:lines: 20-58 
+RgetBorrower() may expose internal representation by returning Contract.borrower 
+NMay expose internal representation by returning reference to mutable object 
+cReturning a reference to a mutable object value stored in one of the object's fields exposes the 
+f  internal representation of the object. If instances are accessed by untrusted code, and unchecked 
+d  changes to the mutable object would compromise security or other important properties, you will 
+b  need to do something different. Returning a new copy of the object is better approach in many 
+  situations.
+
+text:lines: 20-58 
+NgetLender() may expose internal representation by returning Contract.lender 
+NMay expose internal representation by returning reference to mutable object 
+cReturning a reference to a mutable object value stored in one of the object's fields exposes the 
+f  internal representation of the object. If instances are accessed by untrusted code, and unchecked 
+d  changes to the mutable object would compromise security or other important properties, you will 
+b  need to do something different. Returning a new copy of the object is better approach in many 
+  situations.
+
+text:lines: 20-58 
+fnew model.Contract(int, int, Item, Member, Member) may expose internal representation by storing an 
+5  externally mutable object into Contract.borrower 
+RMay expose internal representation by incorporating reference to mutable object 
+gThis code stores a reference to an externally mutable object into the internal representation of the 
+e  object. If instances are accessed by untrusted code, and unchecked changes to the mutable object 
+f  would compromise security or other important properties, you will need to do something different. 
+G  Storing a copy of the object is better approach in many situations.
+
+text:lines: 20-58 
+fnew model.Contract(int, int, Item, Member, Member) may expose internal representation by storing an 
+3  externally mutable object into Contract.lender 
+RMay expose internal representation by incorporating reference to mutable object 
+gThis code stores a reference to an externally mutable object into the internal representation of the 
+e  object. If instances are accessed by untrusted code, and unchecked changes to the mutable object 
+f  would compromise security or other important properties, you will need to do something different. 
+G  Storing a copy of the object is better approach in many situations.
+
+10 FindBugs Issues in controller/Controller.java
+,0 FindBugs Issues in view/PrinterView.java
+(0 FindBugs Issues in model/Member.java
+40 FindBugs Issues in model/StuffLendingSystem.java
+*0 FindBugs Issues in controller/App.java
+%0 FindBugs Issues in view/View.java
+50 FindBugs Issues in controller/TimeController.java
+30 FindBugs Issues in view/ControllerCallback.java
+&0 FindBugs Issues in model/Item.java
+,1 FindBugs Issues in view/ConsoleView.java
+text:lines: 16-491 
+EComparison of String objects using == or != in getIdItem(Iterable) 
+.Comparison of String objects using == or != 
+cThis code compares java.lang.String objects for reference equality using the == or != operators. 
+_  Unless both strings are either constants in a source file, or have been interned using the 
+f  String.intern() method, the same string value may be represented by two different String objects. 
+5  Consider using the equals(Object) method instead.
+
+,0 FindBugs Issues in view/MenuActions.java
+*0 FindBugs Issues in model/Category.java
+10 FindBugs Issues in controller/DataLoader.java

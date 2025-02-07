@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CodeQualityTests" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-10-31T09:30:57" hostname="NELLYSIMON" time="0.127">
+  <properties/>
+  <testcase name="codeQuality()" classname="CodeQualityTests" time="0.127">
+    <failure message="org.opentest4j.AssertionFailedError: Max amount (5) of quality issues exceeded:6 ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Max amount (5) of quality issues exceeded:6 ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;
+	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at app//org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:193)
+	at app//CodeQualityTests.codeQuality(CodeQualityTests.java:70)
+	at java.base@17.0.5/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.5/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.5/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.5/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base@17.0.5/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base@17.0.5/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at app//org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:118)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:93)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:88)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@17.0.5/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.5/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.5/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.5/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <system-out><![CDATA[0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/controller/App.java
+0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/controller/Controller.java
+0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/controller/DataLoader.java
+0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/controller/TimeController.java
+0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/model/Category.java
+0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/model/Contract.java
+0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/model/Item.java
+0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/model/Member.java
+0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/model/MemberValidationService.java
+0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/model/StuffLendingSystem.java
+0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/view/ConsoleView.java
+0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/view/ControllerCallback.java
+0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/view/MenuActions.java
+0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/view/PrinterView.java
+0 CheckStyle Issues in C:/Users/nossf/Documents/1Dv607/a2/app/src/main/java/view/View.java
+1 FindBugs Issues in model/MemberValidationService.java
+text:lines: 6-53 
+Unread field: phoneNumberLength 
+Unread field 
+This field is never read. Consider removing it from the class.
+
+4 FindBugs Issues in model/Contract.java
+text:lines: 20-58 
+getBorrower() may expose internal representation by returning Contract.borrower 
+May expose internal representation by returning reference to mutable object 
+Returning a reference to a mutable object value stored in one of the object's fields exposes the 
+  internal representation of the object. If instances are accessed by untrusted code, and unchecked 
+  changes to the mutable object would compromise security or other important properties, you will 
+  need to do something different. Returning a new copy of the object is better approach in many 
+  situations.
+
+text:lines: 20-58 
+getLender() may expose internal representation by returning Contract.lender 
+May expose internal representation by returning reference to mutable object 
+Returning a reference to a mutable object value stored in one of the object's fields exposes the 
+  internal representation of the object. If instances are accessed by untrusted code, and unchecked 
+  changes to the mutable object would compromise security or other important properties, you will 
+  need to do something different. Returning a new copy of the object is better approach in many 
+  situations.
+
+text:lines: 20-58 
+new model.Contract(int, int, Item, Member, Member) may expose internal representation by storing an 
+  externally mutable object into Contract.borrower 
+May expose internal representation by incorporating reference to mutable object 
+This code stores a reference to an externally mutable object into the internal representation of the 
+  object. If instances are accessed by untrusted code, and unchecked changes to the mutable object 
+  would compromise security or other important properties, you will need to do something different. 
+  Storing a copy of the object is better approach in many situations.
+
+text:lines: 20-58 
+new model.Contract(int, int, Item, Member, Member) may expose internal representation by storing an 
+  externally mutable object into Contract.lender 
+May expose internal representation by incorporating reference to mutable object 
+This code stores a reference to an externally mutable object into the internal representation of the 
+  object. If instances are accessed by untrusted code, and unchecked changes to the mutable object 
+  would compromise security or other important properties, you will need to do something different. 
+  Storing a copy of the object is better approach in many situations.
+
+0 FindBugs Issues in controller/Controller.java
+0 FindBugs Issues in view/PrinterView.java
+0 FindBugs Issues in model/Member.java
+0 FindBugs Issues in model/StuffLendingSystem.java
+0 FindBugs Issues in controller/App.java
+0 FindBugs Issues in view/View.java
+0 FindBugs Issues in controller/TimeController.java
+0 FindBugs Issues in view/ControllerCallback.java
+0 FindBugs Issues in model/Item.java
+1 FindBugs Issues in view/ConsoleView.java
+text:lines: 16-491 
+Comparison of String objects using == or != in getIdItem(Iterable) 
+Comparison of String objects using == or != 
+This code compares java.lang.String objects for reference equality using the == or != operators. 
+  Unless both strings are either constants in a source file, or have been interned using the 
+  String.intern() method, the same string value may be represented by two different String objects. 
+  Consider using the equals(Object) method instead.
+
+0 FindBugs Issues in view/MenuActions.java
+0 FindBugs Issues in model/Category.java
+0 FindBugs Issues in controller/DataLoader.java
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
